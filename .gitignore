@@ -1,0 +1,9 @@
+﻿# Ignore Visual Studio temporary files, build results, and
+# sensitive settings.
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.log
+*.pdb
