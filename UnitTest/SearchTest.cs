@@ -9,7 +9,7 @@ using OpenQA.Selenium;
 using HomeServices_Testing.Utilities;
 using Microsoft.VisualStudio.TestPlatform.PlatformAbstractions.Interfaces;
 
-namespace HomeServices_Testing
+namespace HomeServices_Testing.UnitTest
 {
     internal class SearchTest : BaseTest
     {
@@ -37,7 +37,7 @@ namespace HomeServices_Testing
             Assert.IsTrue(searchResults.Text.Contains(searchQuery), "Search results do not contain the query.");
         }
 
-        
+
 
     }
 }
